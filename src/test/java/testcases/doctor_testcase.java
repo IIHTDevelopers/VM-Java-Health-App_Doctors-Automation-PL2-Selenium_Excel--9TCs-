@@ -161,10 +161,10 @@ public class doctor_testcase extends AppTestBase {
 	public void performScrollingOpertaionAndVerifyThePresenceOfButton() throws Exception {
 		doctor_PagesInstance = new doctor_Pages(driver);
 		locatorsFactoryInstance = new LocatorsFactory(driver);
-		Assert.assertTrue(doctor_PagesInstance.performScrollingOpertaionAndVerifyTheSaveButtonIsPresent(),
-		"Save button is not present, please check manually");
-		Assert.assertTrue(locatorsFactoryInstance.saveButtonInsideIpdPageIsPresent(driver).isDisplayed(),
-		"Save button is not present, please check manually");
+		Assert.assertTrue(doctor_PagesInstance.performScrollingOpertaionAndVerifyTheUpdateButtonIsPresent(),
+		"Update button is not present, please check manually");
+		Assert.assertTrue(locatorsFactoryInstance.updateButtonInsideIpdPageIsPresent(driver).isDisplayed(),
+		"Update button is not present, please check manually");
 	}
 
 
