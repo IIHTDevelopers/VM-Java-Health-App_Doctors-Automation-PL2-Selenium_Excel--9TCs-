@@ -1019,7 +1019,7 @@ public class LocatorsFactory extends UserActions {
 	}
 
 
-	public WebElement saveButtonInsideIpdPageIsPresent(WebDriver driver) {
+	public WebElement updateButtonInsideIpdPageIsPresent(WebDriver driver) {
 		WebElement saveButtonInsideIpdPageWebElement = userActions.findElement(saveButtonInsideIpdPage);
 		return saveButtonInsideIpdPageWebElement; 
 	}
