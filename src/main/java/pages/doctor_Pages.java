@@ -8,41 +8,8 @@ import org.openqa.selenium.WebElement;
 
 public class doctor_Pages extends StartupPage {
 
-//	Locators for TC-1
-	By usernameTextbox = null;
-	By passwordTextbox = null;
-	By signInButton = null;
-	By doctorTab = null;
-//	Locators for TC-2
-	By doctorToggle = null;	
-	By outPatientSubModule = null;	
-	By inPatientDepartmentSubModule = null;	
-	By patientRecordSubModule = null;
-//	Locators for TC-3
-	By showDoctorWisePatientListCheckBox = null;
-//	Locators for TC-4
-	By departmentFilterDropdown = null;
-//	Locators for TC-5
-	By myFavoritesButton = null;
-//	Locators for TC-6
-	By pendingListButton = null;
-	By showDetailsButton = null;
-	By freeTextTemplatePageTitle = null;
-//	Locators for TC-7
-	By XbuttonInFreeTextTemplate = null;
-	By doctorNameWhereHospitalNumberIs2312000010 = null;
-//	Locators for TC-8
-	By previewIcon = null;
-	By problemsModule = null;
-	By surgicalHistoryTab = null;
-	By addNewButton = null;
-	By addButton = null;
-	By searchProblemFieldErrorMessage = null;
-//	Locators for TC-9
-	By dischargeSummaryModule = null;
-	By updateButton = null;
-
-
+//	Write all the required Locators here.
+	
 	String pageName = this.getClass().getSimpleName();
 	public doctor_Pages(WebDriver driver) {
 		super(driver);
@@ -268,7 +235,7 @@ public class doctor_Pages extends StartupPage {
 	 * @return : Boolean
 	 * @author : Yaksha
 	 */
-	public Boolean performScrollingOpertaionAndVerifyTheSaveButtonIsPresent() throws Exception {
+	public Boolean performScrollingOpertaionAndVerifyTheUpdateButtonIsPresent() throws Exception {
 			
 		return false;
 	}
